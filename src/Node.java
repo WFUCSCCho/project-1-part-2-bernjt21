@@ -1,3 +1,9 @@
+/********************************************************************
+ * @file: Node.java
+ * @description: This program implements the Node class which creates, gets, and sets nodes for the binary search tree
+ * @author: June Bernstein
+ * @date: September 26, 2024
+ ******************************************************************/
 public class Node<T extends Comparable<T>> {
     private T element; // element
     private Node<T> left; //left child

@@ -1,3 +1,10 @@
+/********************************************************************
+ * @file: BST.java
+ * @description: This program implements the BST and BSTIterator class which allows the program to create a BST and interate through the BST recursively
+ * @author: June Bernstein
+ * @date: September 26, 2024
+ ******************************************************************/
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Stack;

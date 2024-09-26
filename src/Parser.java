@@ -1,3 +1,9 @@
+/********************************************************************
+ * @file: Parser.java
+ * @description: This program implements the Parser class which parses take in the input file and parses it to complete given instructions and print it onto a results file
+ * @author: June Bernstein
+ * @date: September 26, 2024
+ ******************************************************************/
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -126,7 +132,6 @@ public class Parser {
 
 
     // Implement the writeToFile method
-    // Generate the result file
     public void writeToFile(String content, String filePath) {
         try {
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(filePath, true));

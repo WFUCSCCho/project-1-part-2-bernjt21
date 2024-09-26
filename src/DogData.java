@@ -1,4 +1,9 @@
-
+/********************************************************************
+ * @file: DogData.java
+ * @description: This program implements the DogData class which includes the toString(), compareTo(), and equals() method
+ * @author: June Bernstein
+ * @date: September 26, 2024
+ ******************************************************************/
 public class DogData implements Comparable<DogData> { //does this need to be extends
 
     //from dog data
@@ -27,6 +32,7 @@ public class DogData implements Comparable<DogData> { //does this need to be ext
         return "Breed: " + breed + ", Country of Origin: " + originCountry + ", Fur color: " + furColor + ", Height: " + height + ", Eye: " + eyeColor + ", Longevity: " + longevity;
     }
 
+    //boolean equals method
     public boolean equals(DogData obj) {
         if (this.breed.equals(obj.breed)){
             return true;
@@ -36,7 +42,7 @@ public class DogData implements Comparable<DogData> { //does this need to be ext
         }
     }
 
-    //TODO: Comparable interface for Dog Breed
+    //Comparable interface for Dog Breed
     @Override
     public int compareTo(DogData obj) {
 

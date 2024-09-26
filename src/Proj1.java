@@ -1,3 +1,9 @@
+/********************************************************************
+ * @file: Proj1.java
+ * @description: This program implements the main method to run the Parser program
+ * @author: June Bernstein
+ * @date: September 26, 2024
+ ******************************************************************/
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
