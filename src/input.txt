@@ -1,25 +1,7 @@
-
-insert 111
-             insert 23
-
-insert 99
-insert         4
-
-isEmpty
-
-    insert     111
-
 print
 
+search,Golden Retriever,Scotland,Golden,21-24,Brown,10-12
+remove,Chihuahua,Mexico,Black or Brown or Tan or White,6-9,Brown or Blue,12-20
+insert,Poodle,France,White or Black or Brown or Apricot,10-15,Brown or Blue,12-15
 
-search 9
-
-remove 23
-
-remove 4
-remove 999999
-isEmptyasfh
-print
-
-insert 123
 print
